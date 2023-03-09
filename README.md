@@ -10,11 +10,11 @@
     </ul>
     <h2>Instalación</h2>
     <ol>
-      <li>Descargar el archivo PowerShellUserManagement.ps1</li>
+      <li>Descargar el archivo PowerAdmin.ps1</li>
       <li>Abrir PowerShell en modo administrador.</li>
       <li>Ejecutar el siguiente comando: Set-ExecutionPolicy Unrestricted</li>
-      <li>Navegar hasta la ubicación donde se encuentra el archivo PowerShellUserManagement.ps1</li>
-      <li>Ejecutar el siguiente comando: .\PowerShellUserManagement.ps1</li>
+      <li>Navegar hasta la ubicación donde se encuentra el archivo PowerAdmin.ps1</li>
+      <li>Ejecutar el siguiente comando: .\PowerAdmin.ps1</li>
     </ol>
     <h2>Funciones</h2>
     <p>El código contiene las siguientes funciones:</p>
