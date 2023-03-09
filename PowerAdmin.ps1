@@ -42,8 +42,3 @@ function Remove-User {
     $user = [adsi]"WinNT://./$Username,user"
     $user.Delete()
 }
-
-# Ejemplo de uso
-New-User -Username "johndoe" -Password "mysecretpassword" -Description "John Doe"
-Set-UserPermissions -Username "johndoe" -FolderPath "C:\Data" -AccessLevel "ReadAndExecute"
-Remove-User -Username "johndoe"
